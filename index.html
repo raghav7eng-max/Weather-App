@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracker</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <img id="logo" src="nlogo.png" alt="Logo">
+    </div>
+    <div id="toggle">
+            <span class="material-symbols-outlined">dark_mode</span>Dark Mode
+        </div>
+    <div id="search">
+        <span id="slg" class="material-symbols-outlined">search</span>
+        <input id="ipn" type="text" name="srch" placeholder="Enter city name...">
+        <button>Search</button>
+    </div>
+    <div id="card">
+        <span id="lc" class="material-symbols-outlined">location_on</span>
+        <h2 id="location">----</h2>
+        <span id="da" class="material-symbols-outlined">description</span>
+        <h4 id="dt">----</h4>
+        <img id="weatherIcon">
+        <h1 id="temp">----</h1>
+        <div id="hs">
+            <h3 id="hm"><span class="material-symbols-outlined">humidity_high</span> Humidity</h3>
+            <h4 id="humid">----</h4>
+            <h3 id="ws"><span class="material-symbols-outlined">air</span> Wind Speed</h3>
+            <h4 id="wind">----</h4>
+        </div>
+        <h4 id="tgln">Made With &#129504; By Me</h4>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
